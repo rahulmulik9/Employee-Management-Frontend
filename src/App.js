@@ -1,11 +1,14 @@
 
 import './App.css';
+import { AddEmployee } from "./Components/AddEmployee";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <label>You created</label>
-    </div>
+    <>
+    <Navbar></Navbar>
+    <AddEmployee></AddEmployee>
+    </>
   );
 }
 
